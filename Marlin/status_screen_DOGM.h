@@ -254,7 +254,7 @@ static void lcd_implementation_status_screen() {
   //
   // Temperature Graphics and Info
   //
-
+/*
   if (PAGE_UNDER(28)) {
     // Extruders
     HOTEND_LOOP() _draw_heater_status(STATUS_SCREEN_HOTEND_TEXT_X(e), e, blink);
@@ -276,7 +276,7 @@ static void lcd_implementation_status_screen() {
       }
     #endif
   }
-
+*/
   #if ENABLED(SDSUPPORT)
     //
     // SD Card Symbol

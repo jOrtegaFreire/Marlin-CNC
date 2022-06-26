@@ -182,7 +182,7 @@
   #define MSG_EDITING_STOPPED                 _UxGT("Mesh Editing Stopped")
 #endif
 #ifndef MSG_USER_MENU
-  #define MSG_USER_MENU                       _UxGT("Custom Commands")
+  #define MSG_USER_MENU                       _UxGT("CNC Prepare")
 #endif
 #ifndef MSG_UBL_DOING_G29
   #define MSG_UBL_DOING_G29                   _UxGT("Doing G29")
@@ -844,7 +844,7 @@
   #define MSG_ERR_Z_HOMING                    MSG_HOME _UxGT(" ") MSG_X MSG_Y _UxGT(" ") MSG_FIRST
 #endif
 #ifndef MSG_HALTED
-  #define MSG_HALTED                          _UxGT("PRINTER HALTED")
+  #define MSG_HALTED                          _UxGT("MILL HALTED")
 #endif
 #ifndef MSG_PLEASE_RESET
   #define MSG_PLEASE_RESET                    _UxGT("Please reset")
